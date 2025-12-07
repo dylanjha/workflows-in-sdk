@@ -47,6 +47,9 @@ curl -X POST --json '{"input":"my workflow input"}' http://localhost:3000/api/do
 
 This workflow fails with an error like:
 
+> [!IMPORTANT]
+> This bug was fixed in `workflow@4.0.1-beta.28`
+
 ```
  ✓ Ready in 438ms
 Error [WorkflowRuntimeError]: 'start' received an invalid workflow function. Ensure the Workflow Development Kit is configured correctly and the function includes a 'use workflow' directive.
