@@ -13,7 +13,7 @@
     "react": "19.2.0",
     "react-dom": "19.2.0",
     "sdk-with-workflows": "file:../sdk-with-workflows",
-    "workflow": "^4.0.1-beta.27"
+    "workflow": "^4.0.1-beta.28"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
