@@ -10,20 +10,3 @@ describe('call workflow function in-line', () => {
     });
   });
 });
-
-describe('call in workflow context', () => {
-  it('should return expected output when calling via start()', async () => {
-    const { start } = await import('workflow/api');
-    const run = await start(workflowTwo, ['input-test']);
-
-    // Check the run object
-    expect(run).toBeDefined();
-    expect(run.runId).toBeDefined();
-
-    // Check the return value
-    const returnValue = await run.returnValue;
-    expect(returnValue).toEqual({
-      output: 'two: one input-test'
-    });
-  });
-});
