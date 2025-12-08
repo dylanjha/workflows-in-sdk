@@ -16,13 +16,16 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsup"
+    "build": "tsup",
+    "test": "vitest run"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "tsup": "^8.0.0",
-    "typescript": "^5.3.0"
+    "typescript": "^5.3.0",
+    "vitest": "^4.0.15",
+    "workflow": "^4.0.1-beta.28"
   }
 }
