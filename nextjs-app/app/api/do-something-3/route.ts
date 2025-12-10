@@ -1,7 +1,5 @@
 /*
  *  Repo case for https://github.com/vercel/workflow/pull/542
- *
- *  FIXED NOW
  * */
 
 import { start } from 'workflow/api';
